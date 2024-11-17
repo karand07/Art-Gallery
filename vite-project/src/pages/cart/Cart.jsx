@@ -83,12 +83,12 @@ function Cart() {
     }
 
     var options = {
-      key: "",
-      key_secret: "",
+      key: "rzp_test_oMCZuNjvGLg35y",
+      key_secret: "WrKO9XvT7PIkcFXhzNrseTcg",
       amount: parseInt(grandTotal * 100),
       currency: "INR",
       order_receipt: 'order_rcptid_' + name,
-      name: "E-Bharat",
+      name: "KalaKart",
       description: "for testing purpose",
       handler: function (response) {
         console.log(response)
